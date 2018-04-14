@@ -1,6 +1,6 @@
 # Thinking-About-Work-and-Learning
 1. 目前的深度学习－CV方面大多基于分类的结果进行优化的，但分类还面临着许多问题：细分类，多标签分类，等等。
-2. 目前在别人的算法基础上，我已经能将Image Retrieval在DeepFashion中Inshop Top10的mAP和mRecall刷到：0.705846784490908， 0.354670454753284
+2. 目前在别人的算法(Siamese with Contrast Loss or TripletLoss or Margin-based Loss using different sampling method)基础上，我已经能将Image Retrieval在DeepFashion中Inshop Top10的mAP和mRecall刷到：0.705846784490908， 0.354670454753284
     
     但其局限性还是很大，如单品搜索效果不错，但多物体就应该会出现大问题，比如一个搜索项同时有上装，下装，鞋子，怎么办？
     
