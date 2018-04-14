@@ -21,3 +21,5 @@
     这类方法都有一个共同点：下采样，然后预测bbox和类别，就精度而言，粗略可排序: Faster RCNN>SSD>YOLO，速度倒过来。
 
     但他们都会存在一个问题：因为进行了下采样，所以对小物体检测会有不同程度损失，SSD会好一些(因其作了Multi-scale)
+    
+### 需要深化的知识：概率论－图，Bayes Series, Unsupervised Learning, Reinforce Learning  
