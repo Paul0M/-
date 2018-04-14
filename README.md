@@ -15,3 +15,9 @@
 
 所以出路在哪里呢？我想到的Unsupervised Learning, Reinforce Learning，以及基于非神经网络的模型。
 目前神经网络后传要求可导，但很多东西不在可导范围类，如果这方面有重大突破，那么又会有一新天地。
+
+4. 另外关于Object Detection, 我接触过的有YOLO(1,2,3)，SSD，Faster RCNN
+
+    这类方法都有一个共通点：下采样，然后预测bbox和类别，就精度而言，粗略可排序: Faster RCNN>SSD>YOLO，速度倒过来。
+
+    但他们都会存在一个问题：因为进行了下采样，所以对小物体检测会有不同程度损失，SSD会好一些(因其作了Multi-scale)
